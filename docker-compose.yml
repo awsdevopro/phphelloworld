@@ -1,4 +1,4 @@
-version: '4'
+version: '3'
 services:
    website:
       image: php:5-apache
