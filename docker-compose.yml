@@ -1,0 +1,9 @@
+version: '4'
+services:
+   website:
+      image: php:5-apache
+      container_name: website
+      ports:
+         - 8000:80
+      volumes:
+         - ${PWD}/src:/var/www/html
