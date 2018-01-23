@@ -4,6 +4,6 @@ services:
       image: php:5-apache
       container_name: website
       ports:
-         - 8000:80
+         - 8000:8080
       volumes:
          - ${PWD}/src:/var/www/html
