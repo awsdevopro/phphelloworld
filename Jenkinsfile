@@ -1,6 +1,6 @@
 node{
   stage('Git Checkout'){
-      git url: 'https://github.com/awsdevopro/phphelloworld',
+      git url: 'https://github.com/awsdevopro/phphelloworld.git',
           branch:'master'
   }
   stage('Build Docker Image'){
