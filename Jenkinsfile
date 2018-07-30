@@ -1,10 +1,10 @@
 pipeline {
-    agent { docker { image 'php' } }
-    stages {
-        stage('build') {
-            steps {
-                sh 'php --version'
-            }
-        }
+  agent any
+  stages {
+    stage('Test') {
+      steps {
+        echo 'Hello, World'
+      }
     }
+  }
 }
