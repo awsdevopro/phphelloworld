@@ -1,3 +1,3 @@
 FROM php:5.6-apache 
 COPY . /var/www/html/
-EXPOSE 8888
+EXPOSE 80 8282
