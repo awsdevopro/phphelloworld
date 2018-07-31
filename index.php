@@ -2,12 +2,7 @@
 <html>
 <body>
 
-<h1>git is working with the jenkins</h1>
-<h1>git is working with the jenkins</h1>
-<h1>git is working with the jenkins</h1>
-<h1>git is working with the jenkins</h1>
-<h1>git is working with the jenkins</h1>
-<h1>git is working with the jenkins</h1>
+<h1>CI/CD has finihsed by the grace of Almighty Allah</h1>
 
 <?php
 echo "Hello World!";
