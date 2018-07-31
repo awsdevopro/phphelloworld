@@ -314,8 +314,8 @@ function Map(imageName) {
         var map;
         map = new GMaps({
             el: '#google_map',
-            lat: 51.507309,
-            lng: -0.127448,
+            lat: 43.645337,
+            lng: -79.395647,
             scrollwheel: false,
             zoom: 18
         });
@@ -356,14 +356,14 @@ var navbars = {
         $(window).on('scroll', function() {
             if ($(this).scrollTop() > 70) { // Set position from top to add class
                 $('.navbar_1').addClass("shrink");
-                $('.pink .navbar-brand> img').attr('src', 'img/logo/logo-blue-dark.png');
+                $('.pink .navbar-brand> img').attr('src', 'img/logo/ITClogo.png');
                 $('.white .navbar-brand> img').attr('src', 'img/logo/ITClogo.png');
                 // $('.side_button_3').addClass('position_fixed');
             } else {
                 $('.navbar').removeClass("shrink");
                 $('.pink .navbar-brand> img').attr('src', 'img/logo/ITClogo.png');
                 $('.white .navbar-brand> img').attr('src', 'img/logo/ITClogo.png');
-                $('.index9 .navbar-brand> img').attr('src', 'img/logo/logo-blue-dark.png');
+                $('.index9 .navbar-brand> img').attr('src', 'img/logo/ITClogo.png');
                 //     $('.side_button_3').removeClass('position_fixed');
             }
 
@@ -541,7 +541,7 @@ tpj(document).ready(function() {
                 },
                 arrows: {
 
-                    enable: true,
+                    enable: false,
                     style: 'hesperiden',
                     tmp: '',
                     rtl: false,
@@ -569,11 +569,12 @@ tpj(document).ready(function() {
                     }
                 },
                 bullets: {
-                    enable: false,
-                    hide_onmobile: true,
+                    enable: true,
+                    hide_onmobile: false,
+                    hideBulletsOnMobile:"off",
                     hide_under: 600,
-                    style: "uranus",
-                    hide_onleave: true,
+                    style: "hermes",
+                    hide_onleave: false,
                     hide_delay: 200,
                     hide_delay_mobile: 1200,
                     direction: "horizontal",
